@@ -1,5 +1,5 @@
 import { getAnalytics } from "firebase/analytics";
-import app from "./clientApp"
+import app from "./FirebaseApp"
 
 const anaytics = getAnalytics(app);
 
