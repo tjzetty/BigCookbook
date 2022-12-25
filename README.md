@@ -5,6 +5,7 @@ Search to find recipes and add them to your cookbook.
 ## Development
 
 - Next JS - framework
+- Yarn - package manager
 - Prettier - formatter
 - Firebase - hosting, authentication, analytics
 - Turborepo - build system
