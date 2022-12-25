@@ -1,10 +1,7 @@
 {
   "hosting": {
-    "source": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "site": "bigcookbook",
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
