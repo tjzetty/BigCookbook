@@ -4,10 +4,11 @@ import {
   signInWithPopup,
   signOut,
 } from "firebase/auth";
+import app from "./FirebaseApp";
 
 export function googleSignin() {
   const provider = new GoogleAuthProvider();
-  const auth = getAuth();
+  const auth = getAuth(app);
 
   signInWithPopup(auth, provider)
     .then((result) => {
